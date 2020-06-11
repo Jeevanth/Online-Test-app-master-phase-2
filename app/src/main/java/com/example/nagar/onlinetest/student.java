@@ -45,7 +45,7 @@ public class student extends AppCompatActivity {
         setContentView(R.layout.activity_student);
 
         enter = (Button)findViewById(R.id.button);
-        testCode = (EditText)findViewById(R.id.editText11);
+        //testCode = (EditText)findViewById(R.id.editText11);
 
         Intent intent = getIntent();
         stdusn = intent.getStringExtra("usn");
